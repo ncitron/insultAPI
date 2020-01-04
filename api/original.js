@@ -52,10 +52,10 @@ const insults = [
     'Villain, I have done thy mother',
 ]
 
-const getInsult = () => {
+const getOriginalInsult = () => {
     return insults[Math.floor(Math.random() * insults.length)];
 }
 
 module.exports = async (req, res) => {
-    res.send(getInsult());
+    res.send(getOriginalInsult());
 }
