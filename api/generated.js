@@ -158,7 +158,7 @@ const third = [
 ];
 
 const getGeneratedInsult = () => {
-    return "You " + first[Math.floor(Math.random() * first.length)] + " " +
+    return "Thou " + first[Math.floor(Math.random() * first.length)] + " " +
         second[Math.floor(Math.random() * second.length)] + " " +
         third[Math.floor(Math.random() * third.length)] + "!";
 }
